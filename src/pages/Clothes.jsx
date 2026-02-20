@@ -12,11 +12,7 @@ export default function ClothesPage() {
 
   return (
     <>
-      <header>
-        <h1 className="text-4xl text-center">Clothes Page</h1>
-      </header>
-
-      <section className="flex flex-wrap gap-2.5 justify-center">
+      <section className="flex flex-wrap gap-2.5 justify-center mt-6">
         {clothes.map((garment) => createProductCard(garment))}
       </section>
     </>
